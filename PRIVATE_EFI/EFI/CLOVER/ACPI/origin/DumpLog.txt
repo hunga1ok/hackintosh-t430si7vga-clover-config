@@ -1,0 +1,82 @@
+13:523  0:149  Found UEFI Acpi 2.0 RSDP at DABFE014
+13:523  0:000  Saving ACPI tables from RSDP DABFE014 to EFI\CLOVER\ACPI\origin ...
+13:523  0:000   DABFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+13:523  0:000    (Xsdt: DABFE170, Rsdt: DABFE0D4)
+13:523  0:000    DABFE170: 'XSDT', 'TP-G7', Rev: 1, Len: 196
+13:523  0:000    DABFE0D4: 'RSDT', 'TP-G7', Rev: 1, Len: 116
+13:523  0:000    Tables in Xsdt: 20
+13:523  0:000    0. DABE5000: 'FACP', 'TP-G7', Rev: 5, Len: 268
+13:523  0:000        (Dsdt: DABE7000, Facs: DAB5A000, XDsdt: DABE7000, XFacs: 0)
+13:523  0:000        DABE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791
+13:524  0:001        DAB5A000: 'FACS', Ver: 1, Len: 64
+13:524  0:000    1. DABFD000: 'SLIC', 'TP-G7', Rev: 1, Len: 374
+13:524  0:000    2. DABFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+13:524  0:000    3. DABFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+13:524  0:000    4. DABFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+13:524  0:000    5. DABF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+13:524  0:000    6. DABE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56
+13:524  0:000    7. DABE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152
+13:524  0:000    8. DABE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60
+13:524  0:000    9. DABE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82
+13:524  0:000    10. DABDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100
+13:524  0:000    11. DABE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165
+13:524  0:000    12. DABDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62
+13:524  0:000    13. DABDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+13:524  0:000    14. DABDC000: 'MSDM', 'TP-G7', Rev: 3, Len: 85
+13:524  0:000    15. DABDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059
+13:524  0:000    16. DABDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+13:524  0:000    17. DABD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678
+13:524  0:000    18. DABD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233
+13:524  0:000    19. DABD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56
+13:524  0:000    Tables in Rsdt: 20
+13:524  0:000    0. DABE4000: 'FACP', 'TP-G7', Rev: 4, Len: 244
+13:524  0:000        (Dsdt: DABE7000, Facs: DAB5A000, XDsdt: 0, XFacs: 0)
+13:524  0:000        DABE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791
+13:526  0:001        DAB5A000: 'FACS', Ver: 1, Len: 64
+13:526  0:000    1. DABFD000: 'SLIC', 'TP-G7', Rev: 1, Len: 374
+13:526  0:000    2. DABFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+13:526  0:000    3. DABFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+13:526  0:000    4. DABFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+13:526  0:000    5. DABF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+13:526  0:000    6. DABE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56
+13:526  0:000    7. DABE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152
+13:526  0:000    8. DABE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60
+13:526  0:000    9. DABE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82
+13:526  0:000    10. DABDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100
+13:526  0:000    11. DABE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165
+13:526  0:000    12. DABDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62
+13:526  0:000    13. DABDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+13:526  0:000    14. DABDC000: 'MSDM', 'TP-G7', Rev: 3, Len: 85
+13:526  0:000    15. DABDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059
+13:526  0:000    16. DABDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+13:526  0:000    17. DABD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678
+13:526  0:000    18. DABD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233
+13:526  0:000    19. DABD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56
+13:526  0:000  Found UEFI Acpi 1.0 RSDP at DABFE000
+13:526  0:000  Printing ACPI tables from RSDP DABFE000 ...
+13:526  0:000   DABFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+13:526  0:000    (Rsdt: DABFE038)
+13:526  0:000    DABFE038: 'RSDT', 'TP-G7', Rev: 1, Len: 112
+13:526  0:000    Tables in Rsdt: 19
+13:526  0:000    0. DABE4000: 'FACP', 'TP-G7', Rev: 4, Len: 244
+13:526  0:000        (Dsdt: DABE7000, Facs: DAB5A000, XDsdt: 0, XFacs: 0)
+13:526  0:000        DABE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791
+13:527  0:001        DAB5A000: 'FACS', Ver: 1, Len: 64
+13:527  0:000    1. DABFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+13:527  0:000    2. DABFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+13:527  0:000    3. DABFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+13:527  0:000    4. DABF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+13:527  0:000    5. DABE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56
+13:527  0:000    6. DABE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152
+13:527  0:000    7. DABE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60
+13:527  0:000    8. DABE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82
+13:527  0:000    9. DABDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100
+13:527  0:000    10. DABE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165
+13:527  0:000    11. DABDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62
+13:527  0:000    12. DABDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+13:527  0:000    13. DABDC000: 'MSDM', 'TP-G7', Rev: 3, Len: 85
+13:527  0:000    14. DABDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059
+13:527  0:000    15. DABDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+13:527  0:000    16. DABD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678
+13:527  0:000    17. DABD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233
+13:527  0:000    18. DABD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56
